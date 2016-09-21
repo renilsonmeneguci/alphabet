@@ -11,8 +11,8 @@ namespace AlphabetSample
             var character = AlphabetService.GetCharacterFromIndex(10);
             Console.WriteLine("Character:" + character);
 
-            var number = AlphabetService.GetIndexFromCharacter("j");
-            Console.WriteLine("Number:" + number);
+            var index = AlphabetService.GetIndexFromCharacter("j");
+            Console.WriteLine("Index:" + index);
 
             Console.ReadKey();
         }
