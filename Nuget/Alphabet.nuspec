@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>Alphabet</id>
-    <version>1.0.0</version>
+      <id>Alphabet</id>
+    <version>1.0.2</version>
     <authors>renilsonmeneguci</authors>
     <owners>renilsonmeneguci</owners>
     <licenseUrl>https://github.com/renilsonmeneguci/Logga/blob/master/COPYING.WTFPL</licenseUrl>
@@ -13,8 +13,9 @@
     <releaseNotes>Initial package</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>Alphabet Alfabet Abc</tags>
-    <dependencies>
-        <dependency id="SampleDependency" version="1.0" />
-    </dependencies>
+    <dependencies/>
   </metadata>
+      <files>
+        <file src="..\Alphabet\bin\Release\Alphabet.dll" target="lib" /> 
+    </files>
 </package>
