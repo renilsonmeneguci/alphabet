@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Alphabet</id>
+    <version>1.0.0</version>
+    <authors>renilsonmeneguci</authors>
+    <owners>renilsonmeneguci</owners>
+    <licenseUrl>https://github.com/renilsonmeneguci/Logga/blob/master/COPYING.WTFPL</licenseUrl>
+    <projectUrl>https://github.com/renilsonmeneguci/alphabet</projectUrl>
+    <iconUrl>http://ICON_URL_HERE_OR_DELETE_THIS_LINE</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Get character and index to Alphabet</description>
+    <releaseNotes>Initial package</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>Alphabet Alfabet Abc</tags>
+    <dependencies>
+        <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+  </metadata>
+</package>

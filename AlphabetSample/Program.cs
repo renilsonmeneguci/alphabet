@@ -1,9 +1,6 @@
 ﻿using Alphabet;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace AlphabetSample
 {
@@ -11,10 +8,10 @@ namespace AlphabetSample
     {
         static void Main(string[] args)
         {
-            var character = AlphabetService.GetCharacterFromNumber(10);
+            var character = AlphabetService.GetCharacterFromIndex(10);
             Console.WriteLine("Character:" + character);
 
-            var number = AlphabetService.GetNumberFromCharacter("j");
+            var number = AlphabetService.GetIndexFromCharacter("j");
             Console.WriteLine("Number:" + number);
 
             Console.ReadKey();

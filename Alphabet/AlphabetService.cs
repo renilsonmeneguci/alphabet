@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Alphabet
 {
@@ -38,7 +36,7 @@ namespace Alphabet
             {26, "z" }
         };
 
-        public static String GetCharacterFromNumber(int number, bool lower = true)
+        public static String GetCharacterFromIndex(int number, bool lower = true)
         {
             if (number <= 0 || number >= 25) return String.Empty;
 
@@ -52,7 +50,7 @@ namespace Alphabet
             return character;
         }
 
-        public static int GetNumberFromCharacter(string character)
+        public static int GetIndexFromCharacter(string character)
         {
             if (String.IsNullOrEmpty(character)) return 0;
 
